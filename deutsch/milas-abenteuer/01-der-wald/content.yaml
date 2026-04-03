@@ -1,0 +1,34 @@
+number: 1
+title: "Der geheimnisvolle Wald"
+description: "Mila entdeckt einen Wald und muss sich entscheiden."
+image: "images/forest.svg"
+sections:
+  - title: "Es war einmal"
+    image: "images/mila-dorf.svg"
+    examples:
+      - q: "Es war einmal ein kleines Maedchen namens Mila. Sie hatte lange braune Haare und grosse neugierige Augen, die immer nach neuen Abenteuern suchten."
+        voice: narrator
+      - q: "Mila lebte in einem kleinen Dorf am Rande eines grossen Waldes. Die Haeuser hatten rote Daecher und ueberall bluehten Blumen in allen Farben."
+        voice: narrator
+      - q: "Jeden Morgen schaute Mila aus ihrem Fenster und beobachtete die Voegel, die zwischen den Baeumen hin und her flogen. Manchmal wuenschte sie sich, so frei zu sein wie sie."
+        voice: narrator
+      - q: "Eines Tages, als die Sonne gerade aufging und der Himmel orange und rosa leuchtete, hoerte Mila ein geheimnisvolles Geraeusch aus dem Wald. Es klang wie eine leise Melodie, die jemand auf einer Floete spielte."
+        voice: narrator
+  - title: "Der geheimnisvolle Klang"
+    image: "images/waldrand.svg"
+    examples:
+      - q: "'Was ist das fuer ein wunderschoener Klang?' fragte sich Mila und stand sofort auf."
+        voice: narrator
+      - q: "Sie zog sich schnell an, packte ihren kleinen Rucksack und schlich leise aus dem Haus, waehrend alle noch schliefen."
+        voice: narrator
+      - q: "Am Waldrand angekommen, sah Mila zwei Wege. Der eine fuehrte zum Fluss, wo das Wasser leise glueckerte. Der andere fuehrte zu einem alten Haus, dessen Fenster warm leuchteten."
+        voice: narrator
+      - q: "Wohin soll Mila gehen?"
+        type: select
+        options:
+          - text: "Zum Fluss"
+            image: "images/river.svg"
+            goto: { lesson: 2, section: 0 }
+          - text: "Zum alten Haus"
+            image: "images/house.svg"
+            goto: { lesson: 3, section: 0 }
